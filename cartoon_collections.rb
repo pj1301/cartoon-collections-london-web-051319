@@ -25,7 +25,7 @@ def long_planeteer_calls(array)# code an argument here
   values = []
   i = 0
   while i < array.length
-    values.push(array[i].length)
+    values.push(array[i].length) #push values to array to compare with
     i += 1
   end
   values.any? {|x| x > 4}
