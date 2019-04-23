@@ -16,7 +16,7 @@ def summon_captain_planet(array)
   # code an argument here
   # Your code here
   array.collect do |x|
-    x.capitalize + "!"
+    x.capitalize + "!" #only the ! needs to be a string
   end
 end
 
